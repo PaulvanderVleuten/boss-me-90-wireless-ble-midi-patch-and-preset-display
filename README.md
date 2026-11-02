@@ -14,15 +14,14 @@ The Boss ME-90 is an incredible processor, but its built-in 2-digit 7-segment di
 
 Below you can see the complete system workspace configuration including the Web Manager interface alongside the physical hardware unit synchronized with the Boss ME-90 processor.
 
-![System Workspace Setup](images/image_bYOnoX.png)
+![System Workspace Setup](images/full-view.jpg)
 
 ---
 
 ## 📦 Hardware Required  
 * **Microcontroller:** ESP32 Development Board ESP32-S3-DevKitC-1 N8R8 (official board)  
 * **Display:** 3.5-inch 480x320 TFT SPI Module ILI9488 SKU MSP3520 (with touch screen)  
-* **Power:** DC/DC buck converter to drop the 9V pedalboard power adapter (Warning: Ring = positive!) down to 5V  
-* **Resistors & Diodes:** 1x 1N4148 diode, 1x 220Ω resistor, 1x 4.7kΩ resistor  
+* **Power:** DC/DC buck converter to drop the 9V pedalboard power adapter (Warning: Ring = positive!) down to 5V    
 * **Enclosure:** Project box enclosure (an STL file is provided in the repository for 3D printing)
 * **Connectors:** Assorted wiring, solder, and connectors as required.
 
@@ -61,7 +60,7 @@ GND     -> GND
 
 | Main Display | Wi-Fi Keyboard Interface |
 | :---: | :---: |
-| ![Main Patch Screen](images/image_2gc9ge.png) | ![Wi-Fi Setup Screen](images/image_tKZ6e1.png) |
+| ![Main Patch Screen](images/patch-display.jpg) | ![Wi-Fi Setup Screen](wifi-setup.jpg) |
 
 * **Enter Credentials:** Use the responsive on-screen touch keyboard to type in your local Wi-Fi network name (**SSID**) and network **Password**.
 * **Save & Exit:** Press the **OK** button. The system will securely save your settings and automatically return you to the main screen.
@@ -71,7 +70,7 @@ GND     -> GND
 * **Access the Webserver:** Open any web browser on a computer, tablet, or smartphone connected to the same Wi-Fi network and enter the displayed IP address into your URL bar.
 * **Edit Patch Names:** Use the clean, built-in **ME-90 Patch Manager** web interface to type out full names for your custom guitar patches.
 
-![Web Patch Manager Interface](images/image_-BSx6t.png)
+![Web Patch Manager Interface](images/web-interface.jpg)
 
 * **Customize Background Colors:**
   * **On a Computer:** Right-click a patch row to open the system color picker palette.
