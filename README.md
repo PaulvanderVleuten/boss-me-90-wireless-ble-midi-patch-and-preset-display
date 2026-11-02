@@ -60,7 +60,7 @@ GND     -> GND
 
 | Main Display | Wi-Fi Keyboard Interface |
 | :---: | :---: |
-| ![Main Patch Screen](images/patch-display.jpg) | ![Wi-Fi Setup Screen](wifi-setup.jpg) |
+| ![Main Patch Screen](images/patch-display.jpg) | ![Wi-Fi Setup Screen](images/wifi-setup.jpg) |
 
 * **Enter Credentials:** Use the responsive on-screen touch keyboard to type in your local Wi-Fi network name (**SSID**) and network **Password**.
 * **Save & Exit:** Press the **OK** button. The system will securely save your settings and automatically return you to the main screen.
