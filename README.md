@@ -12,7 +12,7 @@ A DIY, open-source wireless MIDI patch and preset display built on the **ESP32-S
 
 ## 🎸 The Problem & The Solution
 
-The **BOSS ME-90** is an incredible processor, but its built-in 2-digit 7-segment display makes it tough to keep track of custom preset names on a dark stage. This project uses an **ESP32-S3** and a 3.5-inch TFT display to automatically pair wirelessly with the **BOSS BT-DUAL** adapter on the **ME-90** over Bluetooth, intercepting incoming **MIDI Program Change (PC) messages**, and instantly display high-visibility text along with custom user-assigned background colors on a beautiful large TFT screen.
+The **BOSS ME-90** is an incredible processor, but its built-in 2-digit 7-segment display makes it tough to keep track of custom **preset names** on a dark stage. This project uses an **ESP32-S3** and a 3.5-inch TFT display to automatically pair wirelessly with the **BOSS BT-DUAL** adapter on the **ME-90** over Bluetooth, intercepting incoming **MIDI Program Change (PC) messages**, and instantly display high-visibility text along with custom user-assigned background colors **on a beautiful large TFT screen**.
 
 ### 🌟 Key Features
 * **100% Wireless Connection:** Operates via **MIDI-BLE (Bluetooth Low Energy)** with no physical cables needed.
