@@ -1,12 +1,25 @@
-# boss-me90-midi-patch-display
+# BOSS ME-90 Wireless BLE-MIDI Patch & Preset Display
+
 
 [![License: MIT](https://shields.io)](https://opensource.org)  
 [![Platform: ESP32](https://shields.io)](https://espressif.com)  
 [![Build Tool: pioarduino](https://shields.io)](https://github.com)
 
-A DIY, open-source wireless MIDI patch and preset display built on the **ESP32** using **pioarduino** (the modern community fork of PlatformIO). It is tailored to display full preset names for the **Boss ME-90**, but can easily be adapted for other guitar multi-effects processors or stompboxes.
 
-The Boss ME-90 is an incredible processor, but its built-in 2-digit 7-segment display makes it tough to keep track of custom preset names on a dark stage. This project automatically pairs with the ME-90 over Bluetooth, intercepts incoming MIDI Program Change (PC) messages, and instantly renders high-visibility text along with custom user-assigned background colors on a beautiful TFT screen.
+A DIY, open-source wireless MIDI patch and preset display built on the **ESP32-S3** using **pioarduino** (the modern community fork of PlatformIO). It is tailored to display full preset names for the **BOSS ME-90**, but can easily be adapted for other guitar multi-effects processors or stompboxes.
+
+---
+
+## 🎸 The Problem & The Solution
+
+The **BOSS ME-90** is an incredible processor, but its built-in 2-digit 7-segment display makes it tough to keep track of custom preset names on a dark stage. This project uses an **ESP32-S3** and a 3.5-inch TFT display to automatically pair wirelessly with the **BOSS BT-DUAL** adapter on the **ME-90** over Bluetooth, intercepting incoming **MIDI Program Change (PC) messages**, and instantly display high-visibility text along with custom user-assigned background colors on a beautiful large TFT screen.
+
+### 🌟 Key Features
+* **100% Wireless Connection:** Operates via **MIDI-BLE (Bluetooth Low Energy)** with no physical cables needed.
+* **Onboard Wi-Fi Setup:** Features a built-in touch-keyboard for local network configuration.
+* **Local Web Patch Manager:** Access a browser-based local server via IP address to edit preset names instantly.
+* **Stage Color-Coding:** Color-code patches (e.g., green for rhythm, red for lead) for quick visual cues during live performance.
+
 
 ---
 
