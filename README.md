@@ -96,3 +96,6 @@ GND     -> GND
 * **Auto-Pairing:** Turn on both devices. The display unit operates **exclusively via MIDI-BLE (Bluetooth Low Energy)** and will automatically scan, pair, and bond directly to your Boss ME-90—no messy physical MIDI cables or hardware input jacks required.
 * **Initial Sync (Important Note):** When powering on the entire setup for the first time, you must step on the ME-90 patch switches to shift to an alternate patch, and then click back to your initial patch. The Boss ME-90 hardware does not natively broadcast a MIDI Program Change (PC) command upon boot up; this initial cycle forces the wireless message to send, synchronizing the display.
 * **Performance Play:** Once synchronized, step on your ME-90 patch switches as normal during live play. The ESP32 unit will instantly intercept the wireless PC messages and refresh the high-visibility TFT screen with your custom patch name and background color.
+
+## 👨‍💻 Author:
+Created by Paul van der Vleuten
