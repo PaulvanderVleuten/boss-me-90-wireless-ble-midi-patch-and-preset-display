@@ -62,9 +62,8 @@ GND     -> GND
 3V3     -> LED (The LED pin controls the Q1 transistor, meaning there is zero heavy 
                 current draw here. At 3V3 the display reaches a perfect stage brightness.)
 ```
-
 ---
-
+![Circuit Diagram](images/external-effect-display.svg)
 ## 🚀 How to Use
 
 ### 1. Initial Setup & Wi-Fi Configuration
